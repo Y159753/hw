@@ -9,10 +9,10 @@ TREE_MAKE := tree.make
 
 default: $(TREE_MAKE)
 
-DEFAULT_CPP  := /home/utils/gcc-4.9.3/bin/cpp
-DEFAULT_GCC  := /home/utils/gcc-4.9.3/bin/g++
-DEFAULT_PERL := /home/utils/perl-5.8.8/bin/perl
-DEFAULT_JAVA := /home/utils/java/jdk1.8.0_131/bin/java
+DEFAULT_CPP  := /usr/bin/cpp
+DEFAULT_GCC  := /usr/bin/g++
+DEFAULT_PERL := /usr/bin/perl
+DEFAULT_JAVA := /usr/bin/java
 DEFAULT_SYSTEMC := /usr/local/systemc-2.3.0/
 DEFAULT_VERILATOR := verilator
 DEFAULT_CLANG     := clang
